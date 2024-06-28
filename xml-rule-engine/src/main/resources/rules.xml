@@ -1,0 +1,20 @@
+<rules>
+    <rule id="1">
+        <condition>
+            <customerType>regular</customerType>
+            <minPurchase>100</minPurchase>
+        </condition>
+        <action>
+            <discount>5</discount>
+        </action>
+    </rule>
+    <rule id="2">
+        <condition>
+            <customerType>vip</customerType>
+            <minPurchase>200</minPurchase>
+        </condition>
+        <action>
+            <discount>10</discount>
+        </action>
+    </rule>
+</rules>
